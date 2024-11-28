@@ -1,13 +1,15 @@
+import styles from "./Post.module.css";
+
 export default function () {
     return (
-        <div className="card">
+        <div className={styles.card}>
             <img
                 src="https://kentkonseyi.karatay.bel.tr/images/placeholder/600x400.jpg"
-                className="card-img-top"
+                className={styles.card_img}
                 alt="Post-Image"
             ></img>
-            <div className="card-body">
-                <h5 className="card-title">Titolo del post</h5>
+            <div className={styles.card_body}>
+                <h5 className="card-title mb-3">Titolo del post</h5>
                 <p className="card-text">
                     Lorem, ipsum dolor sit amet consectetur adipisicing elit.
                     Omnis blanditiis debitis adipisci incidunt architecto est
