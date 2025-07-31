@@ -1,8 +1,12 @@
-# React + Vite
+# Esercizio Componenti React
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Descrizione
 
-Currently, two official plugins are available:
+In questo progetto viene realizzata una struttura base in React suddivisa in più componenti. L'applicazione include:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **Header**: posizionato nella parte superiore della pagina.
+- **Main**: contiene il componente `Post`.
+- **Post**: mostra un'immagine placeholder e una descrizione testuale fittizia.
+- **Footer**: posizionato alla fine della pagina.
+
+L'obiettivo dell'esercizio è strutturare correttamente l'interfaccia in componenti riutilizzabili e ben organizzati.
